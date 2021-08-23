@@ -4,7 +4,7 @@
 
 #define MAX 50
 
-char* encodeROT13(char *in,int len){
+char* encodeROT13(char *in,int len){ //Encoding is the same as Decoding
 char out[MAX];
 char *ptr=out;
 printf("%s\n",in);
